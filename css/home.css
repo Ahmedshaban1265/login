@@ -22,3 +22,10 @@ background-color: black;
 #logout-btn{
     border: rgba(255, 255, 255, 0.705) solid 1px;
 }
+
+@media screen and (max-width:576px) {
+    .home .tittle .welcoming-tittle{
+        font-size:45px;
+    }
+
+}
