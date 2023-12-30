@@ -1,0 +1,24 @@
+.home{
+    min-height: 100vh;
+    background-image: url("../v882-kul-55.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.nav-bar{
+background-color: black;
+}
+.home .tittle{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.home .tittle .welcoming-tittle{
+    font-size: 60px;
+    font-family: 'Lilita One', sans-serif;
+
+}
+
+#logout-btn{
+    border: rgba(255, 255, 255, 0.705) solid 1px;
+}

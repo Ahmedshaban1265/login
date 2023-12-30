@@ -1,0 +1,114 @@
+.sign_In{
+    min-height:100vh ;
+}
+.sign_In .left-sec{
+    width: 70%;
+    }
+
+.sign_In .left-sec h1{
+    color: #2D3134;
+}
+.sign_In .left-sec input{
+    background-color: #F4F8F7;
+    color: black;
+    border: transparent solid;
+    height: 50px;
+}
+
+.sign_In .left-sec button {
+    color: white;
+    
+    background-color: #2D3134;
+}
+
+
+
+
+
+
+.sign_In .r-sec{
+    background-color: #2D3134;
+    color: white;
+    width: 30%;
+}
+
+.sign_In .r-sec h2{
+    font-family: 'Bebas Neue', sans-serif;
+ font-size: 45px;
+}
+.sign_In .r-sec p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.sign_In .r-sec .sign-Up-btn{
+    color: white;
+    border: white solid 1px;
+    width: 60%;
+}
+.sign_In .r-sec .sign-Up-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:576px) {
+    
+
+    .sign_In{
+        flex-direction: column-reverse;
+    }
+
+    .sign_In .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .sign_In .r-sec {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .sign_In{
+        flex-direction: column-reverse;
+    }
+
+    .sign_In .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sign_In .r-sec {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    
+
+    .sign_In{
+        flex-direction: column-reverse;
+    }
+
+    .sign_In .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sign_In .r-sec {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
+
+

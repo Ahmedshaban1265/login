@@ -1,0 +1,170 @@
+.sign_up {
+    min-height: 100vh;
+}
+
+.sign_up .left-sec {
+    background-color: #2D3134;
+    color: white;
+    width: 30%;
+}
+
+.sign_up .left-sec h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+
+.sign_up .left-sec p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.sign_up .left-sec .sign-in-btn {
+    color: white;
+    border: white solid 1px;
+
+}
+
+.sign_up .left-sec .sign-in-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign_up .r-sec {
+    width: 70%;
+}
+
+.sign_up .r-sec input {
+    background-color: #F4F8F7;
+    color: black;
+    border: transparent solid;
+    height: 50px;
+}
+
+.sign_up .r-sec h1 {
+
+    color: #2D3134;
+}
+
+.sign_up .r-sec button {
+    color: white;
+
+    background-color: #2D3134;
+}
+
+
+.box {
+    background-color: #FFFFFF;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 31.5%;
+    z-index: 10;
+    background-color: #2D3134;
+    color: white;
+}
+
+.box p {
+    font-family: 'Bree Serif', serif;
+    font-size: 21px;
+}
+
+.box i {
+    color: #bb4120;
+}
+
+.header .circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.header .circles .s1 {
+    background-color: #f15f5d;
+}
+
+.header .circles .s2 {
+    background-color: #febe2e;
+
+}
+
+.header .circles .s3 {
+    background-color: #4db748;
+
+}
+
+.box .close-btn i {
+    color: black;
+    font-size: 26px;
+}
+
+.box .close-btn:hover {
+    border: transparent;
+}
+
+@media screen and (max-width:576px) {
+    .box {
+        width: 100%;
+        left: 0;
+    }
+
+    .sign_up {
+        flex-direction: column;
+    }
+
+    .sign_up .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sign_up .r-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .box {
+        width: 100%;
+        left: 0;
+    }
+
+    .sign_up {
+        flex-direction: column;
+        
+    }
+
+    .sign_up .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sign_up .r-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    
+
+    .sign_up {
+        flex-direction: column;
+        
+    }
+
+    .sign_up .left-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sign_up .r-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
